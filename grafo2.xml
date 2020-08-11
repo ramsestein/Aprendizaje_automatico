@@ -1,0 +1,55 @@
+<ul class="graph-diagram-markup" data-internal-scale="0.92" data-external-scale="1">
+  <li class="node" data-node-id="0" data-x="71" data-y="44.45625305175781">
+    <span class="caption">Gastroenteritis_virica</span><dl class="properties"><dt>{'tipo'</dt><dd>enfermedad}</dd><dt>{'clase'</dt><dd>abdominal}</dd><dt>{'tiempo'</dt><dd>dias}</dd></dl></li>
+  <li class="node" data-node-id="1" data-x="-843.7259979248047" data-y="513.7226867675781">
+    <span class="caption">Eructo</span><dl class="properties"><dt>{'tipo'</dt><dd>sintoma}</dd><dt>{'clase'</dt><dd>abdominal}</dd></dl></li>
+  <li class="node" data-node-id="2" data-x="225.4491195678711" data-y="613.9130554199219">
+    <span class="caption">Diarrea</span><dl class="properties"><dt>{'tipo'</dt><dd>sintoma}</dd><dt>{'clase'</dt><dd>abdominal}</dd></dl></li>
+  <li class="node" data-node-id="3" data-x="864.3127288818359" data-y="272.43548583984375">
+    <span class="caption">Sed</span><dl class="properties"><dt>{'tipo'</dt><dd>sintoma}</dd><dt>{'clase'</dt><dd>general}</dd></dl></li>
+  <li class="node" data-node-id="4" data-x="402.1785125732422" data-y="-65.84494018554688">
+    <span class="caption">Oliguria</span><dl class="properties"><dt>{'tipo'</dt><dd>signo}</dd><dt>{'clase'</dt><dd>urinario}</dd></dl></li>
+  <li class="node" data-node-id="5" data-x="-102.8389892578125" data-y="272.43548583984375">
+    <span class="caption">Perdida_Peso</span><dl class="properties"><dt>{'tipo'</dt><dd>sintoma}</dd><dt>{'clase'</dt><dd>general}</dd></dl></li>
+  <li class="node" data-node-id="6" data-x="-908.4385833740234" data-y="113.26253509521484">
+    <span class="caption">Borborigmo</span><dl class="properties"><dt>{'tipo'</dt><dd>sintoma}</dd><dt>{'clase'</dt><dd>abdominal}</dd></dl></li>
+  <li class="node" data-node-id="7" data-x="-772.4970616879671" data-y="-209.83895774509602">
+    <span class="caption">Mesogastrio</span><dl class="properties"><dt>{'tipo'</dt><dd>lugar}</dd></dl></li>
+  <li class="node" data-node-id="8" data-x="71" data-y="-322.8526153564453">
+    <span class="caption">Epigastrio</span><dl class="properties"><dt>{'tipo'</dt><dd>lugar}</dd></dl></li>
+  <li class="node" data-node-id="9" data-x="-191.75182043987726" data-y="-469.9033130148182">
+    <span class="caption">Hipogastrio</span><dl class="properties"><dt>{'tipo'</dt><dd>lugar}</dd></dl></li>
+  <li class="node" data-node-id="10" data-x="864.3127288818359" data-y="-255.23680114746094">
+    <span class="caption">Analitica_Orina</span><dl class="properties"><dt>{'tipo'</dt><dd>prueba}</dd><dt>{'clase'</dt><dd>diagnóstico}</dd><dt>{'grupo'</dt><dd>laboratorio}</dd></dl></li>
+  <li class="node" data-node-id="11" data-x="789.3145751953125" data-y="-65.84494018554688">
+    <span class="caption">Recogida_Orina</span><dl class="properties"><dt>{'tipo'</dt><dd>valor_analitico}</dd><dt>{'clase'</dt><dd>orina}</dd></dl></li>
+  <li class="relationship" data-from="0" data-to="1">
+    <span class="type">cursa_con</span><dl class="properties"><dt>{'tipo'</dt><dd>sintoma}</dd><dt>{'cantidad_max'</dt><dd>6}</dd><dt>{'cantidad_min'</dt><dd>2}</dd><dt>{'tiempo'</dt><dd>dias}</dd></dl></li>
+  <li class="relationship" data-from="0" data-to="2">
+    <span class="type">cursa_con</span><dl class="properties"><dt>{'tipo'</dt><dd>sintoma}</dd><dt>{'cantidad_max'</dt><dd>6}</dd><dt>{'cantidad_min'</dt><dd>2}</dd><dt>{'tiempo'</dt><dd>dias}</dd></dl></li>
+  <li class="relationship" data-from="0" data-to="3">
+    <span class="type">cursa_con</span><dl class="properties"><dt>{'tipo'</dt><dd>sintoma}</dd><dt>{'cantidad_max'</dt><dd>6}</dd><dt>{'cantidad_min'</dt><dd>2}</dd><dt>{'forma'</dt><dd>difuso}</dd></dl></li>
+  <li class="relationship" data-from="0" data-to="4">
+    <span class="type">cursa_con</span><dl class="properties"><dt>{'tipo'</dt><dd>signo}</dd><dt>{'cantidad_max'</dt><dd>6}</dd><dt>{'cantidad_min'</dt><dd>2}</dd><dt>{'forma'</dt><dd>difuso}</dd></dl></li>
+  <li class="relationship" data-from="4" data-to="3">
+    <span class="type">cursa_con</span><dl class="properties"><dt>{'tipo'</dt><dd>sintoma}</dd><dt>{'cantidad_max'</dt><dd>6}</dd><dt>{'cantidad_min'</dt><dd>2}</dd><dt>{'forma'</dt><dd>difuso}</dd></dl></li>
+  <li class="relationship" data-from="0" data-to="5">
+    <span class="type">cursa_con</span><dl class="properties"><dt>{'tipo'</dt><dd>sintoma}</dd><dt>{'cantidad_max'</dt><dd>6}</dd><dt>{'cantidad_min'</dt><dd>2}</dd><dt>{'tiempo'</dt><dd>dias}</dd></dl></li>
+  <li class="relationship" data-from="2" data-to="5">
+    <span class="type">cursa_con</span><dl class="properties"><dt>{'tipo'</dt><dd>sintoma}</dd><dt>{'cantidad_max'</dt><dd>6}</dd><dt>{'cantidad_min'</dt><dd>2}</dd><dt>{'tiempo'</dt><dd>dias}</dd></dl></li>
+  <li class="relationship" data-from="3" data-to="2">
+    <span class="type">cursa_con</span><dl class="properties"><dt>{'tipo'</dt><dd>sintoma}</dd><dt>{'cantidad_max'</dt><dd>6}</dd><dt>{'cantidad_min'</dt><dd>2}</dd><dt>{'forma'</dt><dd>difuso}</dd></dl></li>
+  <li class="relationship" data-from="0" data-to="6">
+    <span class="type">cursa_con</span><dl class="properties"><dt>{'tipo'</dt><dd>sintoma}</dd><dt>{'cantidad_max'</dt><dd>6}</dd><dt>{'cantidad_min'</dt><dd>2}</dd><dt>{'tiempo'</dt><dd>dias}</dd></dl></li>
+  <li class="relationship" data-from="0" data-to="7">
+    <span class="type">cursa_con</span><dl class="properties"><dt>{'tipo'</dt><dd>dolor}</dd><dt>{'cantidad_max'</dt><dd>6}</dd><dt>{'cantidad_min'</dt><dd>2}</dd><dt>{'forma'</dt><dd>difuso}</dd><dt>{'tiempo'</dt><dd>dias}</dd></dl></li>
+  <li class="relationship" data-from="0" data-to="8">
+    <span class="type">cursa_con</span><dl class="properties"><dt>{'tipo'</dt><dd>dolor}</dd><dt>{'cantidad_max'</dt><dd>6}</dd><dt>{'cantidad_min'</dt><dd>2}</dd><dt>{'forma'</dt><dd>difuso}</dd><dt>{'tiempo'</dt><dd>dias}</dd></dl></li>
+  <li class="relationship" data-from="0" data-to="9">
+    <span class="type">cursa_con</span><dl class="properties"><dt>{'tipo'</dt><dd>dolor}</dd><dt>{'cantidad_max'</dt><dd>6}</dd><dt>{'cantidad_min'</dt><dd>2}</dd><dt>{'forma'</dt><dd>difuso}</dd><dt>{'tiempo'</dt><dd>dias}</dd></dl></li>
+  <li class="relationship" data-from="11" data-to="4">
+    <span class="type">valida</span><dl class="properties"><dt>{'tipo'</dt><dd>diagnostico}</dd></dl></li>
+  <li class="relationship" data-from="10" data-to="11">
+    <span class="type">incluye</span>
+  </li>
+</ul>
